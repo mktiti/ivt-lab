@@ -15,7 +15,7 @@ public interface SpaceShip {
   public boolean fireLaser(FiringMode firingMode);
 
   /**
-  * Fires the torpedo stores of the ship with the specified firing mode
+  * Fires all the torpedo stores of the ship with the specified firing mode immediately
   *
   * @param firingMode how many torpedo stores to fire
   * @return whether the fire command was successful
